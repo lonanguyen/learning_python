@@ -1,0 +1,17 @@
+from array import array
+intarr=array('b',[1,2,3,4,5])
+intarr.pop(0)
+print("Array after remove",intarr)
+
+intarr=array('b',[1,2,3,4,5])
+print("Array before remove",intarr)
+intarr.append(6)
+print("Array after adding item 1",intarr)
+intarr.append(7)
+print("Array after adding item 2",intarr)
+intarr.append(8)
+print("Array after adding item 3",intarr)
+intarr.append(9)
+print("Array after adding item 4",intarr)
+intarr.append(10)
+print("Array after adding item 5",intarr)
